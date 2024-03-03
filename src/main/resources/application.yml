@@ -1,0 +1,16 @@
+spring:
+    thymeleaf:
+        prefix: classpath:templates/
+        suffix: .html
+        cache: false
+
+    devtools:
+        livereload:
+            enabled: true
+    web:
+        resources:
+            chain:
+                cache: false
+
+hello:
+    world: test
