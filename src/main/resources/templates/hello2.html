@@ -326,7 +326,7 @@ function init(svgCanvas) {
   scoreArea2d.sprite = scoreText;
   scoreArea2d.updateSprite = function(){
     var svg = this.sprite.cloneNode();
-    svg.innerHTML = score;
+    svg.innerHTML = ": " + score;
     return svg;
   }
   objects.push(scoreArea2d);
