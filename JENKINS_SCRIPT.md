@@ -1,3 +1,5 @@
+#jenkins build 후 배포하는 execute shell script
+
 # 지정된 포트 번호를 사용하는 프로세스를 찾아서 종료합니다.
 PID=$(netstat -tpln | grep ":$PORT_NUMBER" | awk '{print $7}' | awk -F '/' '{print $1}')
 echo $PID
